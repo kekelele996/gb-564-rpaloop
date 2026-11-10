@@ -1,0 +1,11 @@
+from pydantic import BaseModel
+
+
+class ApiError(BaseModel):
+    code: str
+    message: str
+    detail: str | None = None
+
+
+class MessageResponse(BaseModel):
+    message: str

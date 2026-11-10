@@ -1,0 +1,23 @@
+# 前端
+node_modules/
+dist/
+.vite/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+
+# 环境与敏感信息
+.env
+
+# 运行产物 / 日志 / 截图（测试产物在 test-artifacts/）
+*.log
+artifacts/
+uploads/
+screenshots/
+*.png
+
+# 系统
+.DS_Store
